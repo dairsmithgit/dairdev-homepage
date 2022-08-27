@@ -33,9 +33,10 @@ const Logo = () => {
                     <Image src={cloudsImg} width={30} height={20} alt="logo" />
                     <Text
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                        fontFamily='M PLUS Rounded 1c'
+                        fontFamily='Nunito'
                         fontWeight="bold"
-                        ml={2}>
+                        ml={2}
+                        letterSpacing="normal">
                         Dair Smith
                     </Text>
                 </LogoBox>
