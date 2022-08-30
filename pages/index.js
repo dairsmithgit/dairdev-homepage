@@ -60,6 +60,14 @@ const Page = () => {
                 Learning everyday.
             </BioSection>
         </Section>
+        <Section delay={0.3}>
+            <Heading as="h3" variant="section-title">
+                I ♥
+            </Heading>
+            <Paragraph>
+                Art, Music, Gaming, Making Beats, Photography, Creative Coding
+            </Paragraph>
+        </Section>
     </Container>
 }
 
