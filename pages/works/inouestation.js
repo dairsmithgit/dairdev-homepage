@@ -1,6 +1,6 @@
-import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/react';
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Title, workImage, Meta } from '../../components/Project';
+import { Title, WorkImage, Meta } from '../../components/Project';
 import P from '../../components/Paragraph';
 import Layout from '../../components/layouts/article';
 
@@ -23,7 +23,18 @@ const Project = () => {
                         <Meta>Stack</Meta>
                         <span>HTML, CSS, Javascript, axios</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Source</Meta>
+                        <Link href='https://github.com/dairsmithgit/passengerapp'>
+                            github.com/dairsmithgit/passengerapp <ExternalLinkIcon mx="2px" />
+                        </Link>
+                    </ListItem>
                 </List>
+
+                <WorkImage src='/images/works/inoue_eyecatch.png' alt='inoue station eye-catching image' />
+                <WorkImage src='/images/works/inoue_01.jpeg' alt='inoue station image' />
+                <WorkImage src='/images/works/inoue_02.jpeg' alt='inoue station image' />
+                <WorkImage src='/images/works/inoue_03.jpeg' alt='inoue station image' />
             </Container>
         </Layout>
     )

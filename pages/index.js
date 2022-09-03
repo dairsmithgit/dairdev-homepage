@@ -1,10 +1,13 @@
 import NextLink from "next/link";
-import { Button, Container, Box, Heading, Image, Link, useColorModeValue } from "@chakra-ui/react";
+import { Button, Container, Box, Heading, Image, Link, Icon, SimpleGrid, useColorModeValue, List, ListItem } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Layout from "../components/layouts/article";
 import Section from "../components/Section";
 import Paragraph from "../components/Paragraph";
 import { BioSection, BioYear } from "../components/Bio";
+import { GridItem } from "../components/GridItem";
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
+import { HiOutlineSparkles } from "react-icons/hi";
 
 const Page = () => {
     return <Layout>
@@ -67,8 +70,44 @@ const Page = () => {
                     I ♥
                 </Heading>
                 <Paragraph>
-                    Art, Music, Gaming, Making Beats, Photography, Creative Coding
+                    Design, Gaming, Retro Tech, Making Beats, Photography, Creative Coding
                 </Paragraph>
+            </Section>
+
+            <Section delay={0.3}>
+                <Heading as="h3" variant="section-title">
+                    On the web
+                </Heading>
+                <List>
+                    <ListItem>
+                        <Link href="https://github.com/dairsmithgit" target="_blank">
+                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
+                                @dairsmithgit
+                            </Button>
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href="https://www.linkedin.com/in/dairsmith/" target="_blank">
+                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin} />}>
+                                @dairsmith
+                            </Button>
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href="https://twitter.com/dev_dair" target="_blank">
+                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
+                                @dev_dair
+                            </Button>
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Link href="https://inspo-ab622.web.app/" target="_blank">
+                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={HiOutlineSparkles} />}>
+                                @inspo
+                            </Button>
+                        </Link>
+                    </ListItem>
+                </List>
             </Section>
         </Container>
     </Layout>
