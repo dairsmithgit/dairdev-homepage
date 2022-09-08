@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Text, useColorModeValue } from '@chakra-ui/react';
+import { Text, Icon, useColorModeValue } from '@chakra-ui/react';
+import { GiBonsaiTree } from 'react-icons/gi';
 
 import styled from "@emotion/styled";
 
@@ -30,7 +31,8 @@ const Logo = () => {
         <Link href="/">
             <a>
                 <LogoBox>
-                    <Image src={cloudsImg} width={30} height={20} alt="logo" />
+                    <Icon as={GiBonsaiTree} />
+                    {/* <Image src={cloudsImg} width={30} height={20} alt="logo" /> */}
                     <Text
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                         fontFamily='Nunito'
