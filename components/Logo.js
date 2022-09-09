@@ -35,7 +35,7 @@ const Logo = () => {
                     {/* <Image src={cloudsImg} width={30} height={20} alt="logo" /> */}
                     <Text
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-                        fontFamily='Nunito'
+                        fontFamily='Montserrat'
                         fontWeight="bold"
                         ml={2}
                         letterSpacing="normal">

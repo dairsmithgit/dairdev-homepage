@@ -34,7 +34,7 @@ const Page = () => {
                 <Paragraph>Dair is a full-stack web developer based in Austin, TX with a passion for building fun, modern web apps that inspire others. He has a keen eye for good design and enjoys learning new technology to ceaselessly improve his skills in the web world. When not online, he takes inspiration from music, photography, and the natural world to inspire his work. Dair is currently looking for full-time work as a web developer in front-end, back-end, or full-stack teams.</Paragraph>
                 <Box align="center" my={4}>
                     <NextLink href="/works">
-                        <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                        <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
                             My Portfolio
                         </Button>
                     </NextLink>
@@ -81,28 +81,28 @@ const Page = () => {
                 <List>
                     <ListItem>
                         <Link href="https://github.com/dairsmithgit" target="_blank">
-                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
+                            <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoGithub} />}>
                                 @dairsmithgit
                             </Button>
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link href="https://www.linkedin.com/in/dairsmith/" target="_blank">
-                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin} />}>
+                            <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoLinkedin} />}>
                                 @dairsmith
                             </Button>
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link href="https://twitter.com/dev_dair" target="_blank">
-                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoTwitter} />}>
+                            <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoTwitter} />}>
                                 @dev_dair
                             </Button>
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link href="https://inspo-ab622.web.app/" target="_blank">
-                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={HiOutlineSparkles} />}>
+                            <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={HiOutlineSparkles} />}>
                                 @inspo
                             </Button>
                         </Link>
