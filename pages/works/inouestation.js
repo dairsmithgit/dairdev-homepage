@@ -12,7 +12,7 @@ const Project = () => {
                     Toro Inoue Station <Badge>2022</Badge>
                 </Title>
                 <P>
-                    Google Chrome extension to view a dashboard of the fictional "Toro Inoue Train Station" featuring Toro Inoue from Doko Demo Issyo. Created with the goal of using some Javascript features/objects I was not familiar with.  Responsive desktop, mobile, and widget screen size design.
+                    Google Chrome extension to view a dashboard of the fictional &quot;Toro Inoue Train Station&quot; featuring Toro Inoue from Doko Demo Issyo. Created with the goal of using some Javascript features/objects I was not familiar with.  Responsive desktop, mobile, and widget screen size design.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

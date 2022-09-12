@@ -1,11 +1,10 @@
 import NextLink from "next/link";
-import { Button, Container, Box, Heading, Image, Link, Icon, SimpleGrid, useColorModeValue, List, ListItem } from "@chakra-ui/react";
+import { Button, Container, Box, Heading, Image, Link, Icon, useColorModeValue, List, ListItem } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Layout from "../components/layouts/article";
 import Section from "../components/Section";
 import Paragraph from "../components/Paragraph";
 import { BioSection, BioYear } from "../components/Bio";
-import { GridItem } from "../components/GridItem";
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 import { HiOutlineSparkles } from "react-icons/hi";
 

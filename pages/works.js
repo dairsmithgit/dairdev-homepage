@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
+import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../components/Section";
 import { WorkGridItem } from "../components/GridItem";
 import Layout from "../components/layouts/article";
@@ -21,7 +21,7 @@ const Works = () => {
                     </Section>
                     <Section>
                         <WorkGridItem id="inouestation" title="Inoue Station" thumbnail={thumbInoue}>
-                            Google Chrome extension to view a dashboard for the fictional "Toro Inoue Train Station".
+                            Google Chrome extension to view a dashboard for the fictional &quot;Toro Inoue Train Station&quot;.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>

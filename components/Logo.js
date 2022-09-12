@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Text, Icon, useColorModeValue } from '@chakra-ui/react';
 import { GiBonsaiTree } from 'react-icons/gi';
 
@@ -25,8 +24,6 @@ padding: 10px;
 `
 
 const Logo = () => {
-    const cloudsImg = `/images/clouds${useColorModeValue('', '-dark')}.png`
-
     return (
         <Link href="/">
             <a>

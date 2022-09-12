@@ -1,10 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react';
 import Layout from '../components/layouts/article';
 import Section from '../components/Section';
-import { GridItem } from '../components/GridItem';
 import { useRouter } from 'next/router';
-
-import img1 from '../public/images/dair1.png';
 import { useEffect } from 'react';
 
 // FUTURE: thumbnails
@@ -17,7 +14,7 @@ const Posts = () => {
         setTimeout(() => {
             router.push('/');
         }, 2000)
-    }, [])
+    }, [router])
 
     return (
         <Layout title="Posts">

@@ -9,7 +9,6 @@ const variants = {
 }
 
 const Layout = ({ children, title }) => {
-    const t = `${title} - Dair Smith`
     return (
         <motion.article
             initial="hidden" animate="enter" exit="exit" variants={variants} transition={{ duration: 0.4, type: "easeInOut" }} style={{ position: "relative" }}>
