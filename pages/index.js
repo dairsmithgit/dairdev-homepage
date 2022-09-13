@@ -66,7 +66,7 @@ const Page = () => {
             </Section>
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">
-                    I ❤
+                    I ♥
                 </Heading>
                 <Paragraph>
                     Design, Gaming, Making Beats, Photography, Creative Coding
