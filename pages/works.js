@@ -4,6 +4,7 @@ import { WorkGridItem } from "../components/GridItem";
 import Layout from "../components/layouts/article";
 
 import thumbInspo from '../public/images/works/inspo_eyecatch.png';
+import thumbAscii from '../public/images/works/ascii_eyecatch.png';
 import thumbInoue from '../public/images/works/inoue_eyecatch.png';
 
 const Works = () => {
@@ -17,6 +18,11 @@ const Works = () => {
                     <Section>
                         <WorkGridItem id="inspo" title="Inspo" thumbnail={thumbInspo}>
                             A social-media-like feed for images that inspire and inform my work.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="ascii" title="Img to Ascii" thumbnail={thumbAscii}>
+                            Turn images into ASCII art with the HTML Canvas element.
                         </WorkGridItem>
                     </Section>
                     <Section>
