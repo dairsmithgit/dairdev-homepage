@@ -27,7 +27,7 @@ export const DeskContainer = forwardRef(({ children }, ref) => (
     </Box>
 ))
 
-const Loader = () => {
+function Loader() {
     return (
         <DeskContainer>
             <DeskSpinner />
