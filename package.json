@@ -1,6 +1,6 @@
 {
   "name": "dairlite-homepage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dair's first portfolio website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
