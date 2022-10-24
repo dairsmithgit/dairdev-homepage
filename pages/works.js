@@ -6,6 +6,7 @@ import Layout from "../components/layouts/article";
 import thumbInspo from '../public/images/works/inspo_eyecatch.png';
 import thumbAscii from '../public/images/works/ascii_eyecatch.png';
 import thumbInoue from '../public/images/works/inoue_eyecatch.png';
+import thumbMinote from '../public/images/works/minote_eyecatch.png';
 
 const Works = () => {
     return (
@@ -28,6 +29,11 @@ const Works = () => {
                     <Section>
                         <WorkGridItem id="inouestation" title="Inoue Station" thumbnail={thumbInoue}>
                             Google Chrome extension to view a dashboard for the fictional &quot;Toro Inoue Train Station&quot;.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="minote" title="Minote" thumbnail={thumbMinote}>
+                            Cross-platform note-taking application for programmers. &#40;in development&#41;
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
