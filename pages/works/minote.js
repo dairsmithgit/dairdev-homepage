@@ -12,7 +12,7 @@ const Project = () => {
                     Minote <Badge>In Development</Badge>
                 </Title>
                 <P>
-                    Minote is a cross-platform note-taking application for programmers that allows you to develop and maintain your ideas. Create folders dedicated to projects or related ideas, use markdown to structure the note, and include code snippets for psuedo-code or reference.
+                    Minote is a cross-platform note-taking application for programmers that allows you to develop and maintain your ideas. Create folders dedicated to projects or related ideas, use markdown to structure the note, and include code snippets for pseudo-code or reference.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
