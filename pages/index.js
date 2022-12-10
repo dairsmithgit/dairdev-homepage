@@ -5,7 +5,7 @@ import Layout from "../components/layouts/article";
 import Section from "../components/Section";
 import Paragraph from "../components/Paragraph";
 import { BioSection, BioYear } from "../components/Bio";
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
 import { HiOutlineSparkles } from "react-icons/hi";
 
 const Page = () => {
