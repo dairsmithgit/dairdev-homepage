@@ -12,7 +12,7 @@ const Page = () => {
     return <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p="3" mb="6" align="center">
-                Hello, I&apos;m a full-stack developer based in Texas!
+                Hello, I&apos;m a full-stack developer based in Michigan!
             </Box>
 
             <Box display={{ md: 'flex' }}>
@@ -30,7 +30,7 @@ const Page = () => {
                 <Heading as="h3" variant="section-title">
                     Work
                 </Heading>
-                <Paragraph>Dair is a full-stack web developer based in Austin, TX with a passion for building fun, modern web apps that inspire others. He has a keen eye for good design and enjoys learning new technology to ceaselessly improve his skills in the web world. When not online, he takes inspiration from music, photography, and the natural world to inspire his work. Dair is currently looking for full-time work as a web developer in front-end, back-end, or full-stack teams.</Paragraph>
+                <Paragraph>Dair is a full-stack web developer based in Grand Rapids, MI with a passion for building fun, modern web apps that inspire others. He has a keen eye for good design and enjoys learning new technology to ceaselessly improve his skills in the web world. When not online, he takes inspiration from music, photography, and the natural world to inspire his work. Dair is currently looking for full-time work as a web developer in front-end, back-end, or full-stack teams.</Paragraph>
                 <Box align="center" my={4}>
                     <NextLink href="/works">
                         <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
@@ -54,10 +54,6 @@ const Page = () => {
                 <BioSection>
                     <BioYear>2021</BioYear>
                     Completed full-stack web developer bootcamp at Grand Circus in Detroit, MI. Learning MERN stack, git, and more.
-                </BioSection>
-                <BioSection>
-                    <BioYear>2022</BioYear>
-                    Moved to Austin, TX.
                 </BioSection>
                 <BioSection>
                     <BioYear>Present</BioYear>
@@ -92,13 +88,13 @@ const Page = () => {
                             </Button>
                         </Link>
                     </ListItem>
-                    <ListItem>
+                    {/* <ListItem>
                         <Link href="https://twitter.com/dev_dair" target="_blank">
                             <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoTwitter} />}>
                                 @dev_dair
                             </Button>
                         </Link>
-                    </ListItem>
+                    </ListItem> */}
                     <ListItem>
                         <Link href="https://inspo-ab622.web.app/" target="_blank">
                             <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={HiOutlineSparkles} />}>

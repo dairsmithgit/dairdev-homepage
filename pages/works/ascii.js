@@ -9,7 +9,7 @@ const Project = () => {
         <Layout title="Img to Ascii">
             <Container>
                 <Title>
-                    Img to Ascii <Badge>2022-</Badge>
+                    Img to Ascii <Badge>2022</Badge>
                 </Title>
                 <P>
                     Img to Ascii is my first step towards exploring the world of creative coding. I am very interested in the power code can provide to create dynamic, unique and captivating art. I have always appreciated early-internet aesthetics so doing a project with Ascii art is very fun for me.

@@ -18,7 +18,7 @@ const Works = () => {
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
                         <WorkGridItem id="inspo" title="Inspo" thumbnail={thumbInspo}>
-                            A social-media-like feed for images that inspire and inform my work.
+                            A personal blog site for inspirational images and blogs about my developer journey.
                         </WorkGridItem>
                     </Section>
                     <Section>

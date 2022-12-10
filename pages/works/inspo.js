@@ -13,7 +13,7 @@ const Project = () => {
                     Inspo <Badge>2022-</Badge>
                 </Title>
                 <P>
-                    A social-media-like feed to post images that inspire me in art, design, and development. <Icon as={HiOutlineSparkles} />Inspo was created with the purpose of having an easily-accessible repository for images I liked without the need to wade through the rest of my social media. I am continuing development on <Icon as={HiOutlineSparkles} />Inspo to make it a more full-fledged image posting platform with features that make the experience unique.
+                    Inspo is a personal image board and blog site to keep an easily accessible place for images that inspire my design and development; as well as blogs about my developer journey.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -28,7 +28,7 @@ const Project = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>React, Firebase, Framer-motion, axios</span>
+                        <span>React, Firebase, Framer-motion, CSS Modules</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Source</Meta>
