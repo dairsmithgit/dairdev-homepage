@@ -88,13 +88,6 @@ const Page = () => {
                             </Button>
                         </Link>
                     </ListItem>
-                    {/* <ListItem>
-                        <Link href="https://twitter.com/dev_dair" target="_blank">
-                            <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={IoLogoTwitter} />}>
-                                @dev_dair
-                            </Button>
-                        </Link>
-                    </ListItem> */}
                     <ListItem>
                         <Link href="https://inspo-ab622.web.app/" target="_blank">
                             <Button variant="ghost" colorScheme="blue" leftIcon={<Icon as={HiOutlineSparkles} />}>
